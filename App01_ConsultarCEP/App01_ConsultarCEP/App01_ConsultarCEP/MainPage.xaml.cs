@@ -28,6 +28,9 @@ namespace App01_ConsultarCEP
             {
                 try
                 {
+
+
+
                     Endereco end = ViaCEPServico.BuscarEnderecoViaCEP(cep);
 
                     if (end == null)
